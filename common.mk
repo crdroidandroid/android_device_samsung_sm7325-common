@@ -146,7 +146,6 @@ PRODUCT_PACKAGES += \
     init.qti.display_boot.sh \
     memtrack.default \
     gralloc.default \
-    android.hardware.renderscript@1.0-impl \
     libtinyxml \
     libtinyxml2 \
     libqdMetaData \
