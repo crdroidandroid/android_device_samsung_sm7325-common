@@ -5,7 +5,8 @@
   },
   {
         "repository": "crdroidandroid/android_hardware_samsung",
-        "target_path": "hardware/samsung"
+        "target_path": "hardware/samsung",
+	"branch": "14.0-a73xq"
   },
   {
   	"repository": "crdroidandroid/proprietary_vendor_samsung_sm7325-common",
