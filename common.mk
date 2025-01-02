@@ -87,7 +87,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
-    libvolumelistener
+    libvolumelistener \
+    libqti_vndfwk_detect.vendor_32
 
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/audio/configs/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
@@ -115,7 +116,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider-service.samsung \
     libgrallocusage.vendor \
     libutilscallstack.vendor \
-    vendor.qti.hardware.camera.device@1.0.vendor
+    vendor.qti.hardware.camera.device@1.0.vendor \
+    libui_shim.vendor
 
 # CAS
 PRODUCT_PACKAGES += \
