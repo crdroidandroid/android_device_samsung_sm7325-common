@@ -1,4 +1,4 @@
-# All blobs are from A736BXXS8EXE5 (U), unless pinned
+# All blobs are from A736BXXUAEXK4 (U), unless pinned
 
 # ACDB
 vendor/lib/libacdb-fts.so
@@ -315,8 +315,8 @@ vendor/lib/liboemcrypto.so
 vendor/lib64/liboemcrypto.so
 vendor/lib/libtrustedapploader.so
 vendor/lib64/libtrustedapploader.so
-vendor/lib/libwvhidl.so|00f3ce1cce7b39d6d02fe1b77525860940e4ef79
-vendor/lib/mediadrm/libwvdrmengine.so|c41be0857647e8c049b86f2b6124e572a39c68ba
+vendor/lib/libwvhidl.so|36990dbac5c87ccb351071a2758b0786b532f0f1
+vendor/lib/mediadrm/libwvdrmengine.so|78b645e57df4c57c9406619afd345916f7705f27
 
 # Feature
 vendor/lib/libsemnativecarrierfeature.so
@@ -717,7 +717,7 @@ vendor/lib64/libconfigdb.so
 vendor/lib/libqcmaputils.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libengmode_client.so
-vendor/lib64/libsec-ril.so|46d38d55ae2d050f4ee91d3f2fa809a970142ae7
+vendor/lib64/libsec-ril.so|432c63636ba7beb9f713178bb587cc1db5343880
 vendor/lib/libsecril-client.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libsecril-client.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libril_sem.so
