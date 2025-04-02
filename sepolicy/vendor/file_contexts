@@ -31,6 +31,9 @@
 # radio
 /dev/drb                                     u:object_r:drb_device:s0
 
+# Process and system statistics files
+/proc/stat u:object_r:proc_stat:s0
+
 # EFS
 /efs/Battery(/.*)?                           u:object_r:battery_efs_file:s0
 /efs/biometrics(/.*)?                        u:object_r:biometrics_efs_file:s0
