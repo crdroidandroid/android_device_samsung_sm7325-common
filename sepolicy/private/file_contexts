@@ -1,0 +1,2 @@
+# Charging Bypass
+/sys/class/power_supply/battery/batt_slate_mode              u:object_r:sysfs_battery_writable:s0
