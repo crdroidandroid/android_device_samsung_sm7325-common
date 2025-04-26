@@ -53,6 +53,10 @@ allow devicesettings_app sysfs_power:file r_file_perms;
 allow devicesettings_app sysfs_battery:dir search;
 allow devicesettings_app sysfs_battery:file r_file_perms;
 
+# Allow charging bypass to overwrite
+allow devicesettings_app sysfs_battery_writable:dir r_dir_perms;
+allow devicesettings_app sysfs_battery_writable:file { open read write getattr ioctl };
+
 # Specific battery file access (fallback if contexts above don't work)
 allow devicesettings_app sysfs:file { read open getattr ioctl };
 
