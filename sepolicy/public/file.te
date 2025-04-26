@@ -1,3 +1,4 @@
 type sysfs_battery, sysfs_type, r_fs_type, fs_type;
+type sysfs_battery_writable, sysfs_type, rw_fs_type, fs_type;
 type sysfs_camera, sysfs_type, r_fs_type, fs_type;
 type sysfs_camera_writable, sysfs_type, r_fs_type, fs_type;
