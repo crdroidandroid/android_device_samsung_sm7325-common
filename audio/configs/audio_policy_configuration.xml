@@ -233,7 +233,7 @@
                 <route type="mix" sink="primary input"
                        sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,Bt Sco Headset Mic,Aux Device In,FM Tuner,USB Device In,USB Headset In,Telephony Rx"/>
                 <route type="mix" sink="mmap_no_irq_in"
-                       sources="Built-In Mic,Built-In Back Mic,USB Device In,USB Headset In"/>
+                       sources="Built-In Mic,USB Device In,USB Headset In"/>
             </routes>
 
         </module>
