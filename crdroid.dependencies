@@ -1,17 +1,22 @@
 [
   {
-    	"repository": "crdroidandroid/android_kernel_samsung_sm7325",
-    	"target_path": "kernel/samsung/sm7325",
-	"branch": "15.0-a52sxq"
+    "repository": "crdroidandroid/android_kernel_samsung_sm7325",
+    "target_path": "kernel/samsung/sm7325",
+    "branch": "15.0-a52sxq"
   },
   {
-        "repository": "crdroidandroid/android_hardware_samsung",
-        "target_path": "hardware/samsung",
-	"branch": "15.0"
+    "repository": "crdroidandroid/android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "branch": "15.0"
   },
   {
-  	"repository": "crdroidandroid/proprietary_vendor_samsung_sm7325-common",
-	"target_path": "vendor/samsung/sm7325-common",
-	"branch": "15.0-a52sxq"
+    "repository": "crdroidandroid/proprietary_vendor_samsung_sm7325-common",
+    "target_path": "vendor/samsung/sm7325-common",
+    "branch": "15.0-a52sxq"
+  },
+  {
+    "repository": "crdroidandroid/android_hardware_dolby",
+    "target_path": "hardware/dolby",
+    "branch": "15.0"
   }
 ]
