@@ -2,7 +2,7 @@
   {
     "repository": "crdroidandroid/android_kernel_samsung_sm7325",
     "target_path": "kernel/samsung/sm7325",
-    "branch": "15.0"
+    "branch": "15.0-m52xq"
   },
   {
     "repository": "crdroidandroid/android_hardware_samsung",
