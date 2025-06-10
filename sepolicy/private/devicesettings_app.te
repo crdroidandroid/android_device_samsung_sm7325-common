@@ -8,6 +8,7 @@ allow devicesettings_app {
   audioserver_service
   audio_service
   autofill_service
+  batterystats_service
   cameraserver_service
   cameraserver_service
   content_capture_service
@@ -44,3 +45,19 @@ get_prop(devicesettings_app, settingslib_prop)
 r_dir_file(devicesettings_app, sysfs_thermal)
 allow devicesettings_app sysfs_thermal:file { read open };
 allow devicesettings_app sysfs:file { read open };
+
+# Allow reading battery information for charging speed tile
+# Primary battery sysfs paths
+allow devicesettings_app sysfs_batteryinfo:file r_file_perms;
+allow devicesettings_app sysfs_power:file r_file_perms;
+allow devicesettings_app sysfs_battery:dir search;
+allow devicesettings_app sysfs_battery:file r_file_perms;
+
+# Specific battery file access (fallback if contexts above don't work)
+allow devicesettings_app sysfs:file { read open getattr ioctl };
+
+# Allow reading battery manager information
+allow devicesettings_app proc_stat:file r_file_perms;
+
+# Allow Quick Settings tile service binding
+allow devicesettings_app system_server:binder { call transfer };
