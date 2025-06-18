@@ -39,6 +39,9 @@ TARGET_BOOTLOADER_BOARD_NAME := lahaina
 
 TARGET_NO_BOOTLOADER := true
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
