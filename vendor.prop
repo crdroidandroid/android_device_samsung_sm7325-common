@@ -126,6 +126,7 @@ dalvik.vm.heaptargetutilization=0.75
 dalvik.vm.lockprof.threshold=500
 
 # Display
+debug.sf.enable_transaction_tracing=
 ro.hardware.vulkan=adreno
 ro.hardware.egl=adreno
 ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.lahaina.api30
