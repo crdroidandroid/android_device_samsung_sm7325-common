@@ -18,5 +18,10 @@
     "repository": "crdroidandroid/android_hardware_dolby",
     "target_path": "hardware/dolby",
     "branch": "15.0"
+  },
+  {
+    "repository": "crdroidandroid/hardware_samsung-extra_interfaces",
+    "target_path": "hardware/samsung-ext/interfaces",
+    "branch": "15.0"
   }
 ]
