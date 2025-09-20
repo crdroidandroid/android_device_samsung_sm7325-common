@@ -2,7 +2,7 @@
   {
     "repository": "crdroidandroid/android_kernel_samsung_sm7325",
     "target_path": "kernel/samsung/sm7325",
-    "branch": "16.0-m52xq"
+    "branch": "16.0"
   },
   {
     "repository": "crdroidandroid/android_hardware_samsung",
@@ -12,12 +12,12 @@
   {
     "repository": "crdroidandroid/proprietary_vendor_samsung_sm7325-common",
     "target_path": "vendor/samsung/sm7325-common",
-    "branch": "16.0-m52xq"
+    "branch": "16.0"
   },
   {
     "repository": "crdroidandroid/android_hardware_dolby",
     "target_path": "hardware/dolby",
-    "branch": "16.0"
+    "branch": "16.0-motoui"
   },
   {
     "repository": "crdroidandroid/hardware_samsung-extra_interfaces",
