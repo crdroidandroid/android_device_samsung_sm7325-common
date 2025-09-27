@@ -3,8 +3,3 @@ ro.vendor.qti.va_aosp.support=1
 
 # Netflix
 ro.netflix.bsp_rev=Q7325-SPY-33758-1
-
-
-# Dexopt
-pm.dexopt.first-boot=quicken
-pm.dexopt.bg-dexopt=everything
