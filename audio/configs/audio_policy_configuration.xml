@@ -110,7 +110,13 @@
                              samplingRates="8000 16000 48000" channelMasks="AUDIO_CHANNEL_IN_MONO AUDIO_CHANNEL_IN_STEREO"/>
                 </mixPort>
                 <mixPort name="hifi_playback" role="source" />
-                <mixPort name="hifi_input" role="sink" />
+                 <!--Spatial Audio-->
+                <mixPort name="immersive_out" role="source" flags="AUDIO_OUTPUT_FLAG_SPATIALIZER">
+                    <profile name="" format="AUDIO_FORMAT_PCM_FLOAT"
+                             samplingRates="48000" channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                <!--Spatial Audio-->
+                </mixPort>
+				<mixPort name="hifi_input" role="sink" />
             </mixPorts>
             <devicePorts>
                 <!-- Output devices declaration, i.e. Sink DEVICE PORT -->
@@ -205,15 +211,15 @@
                 <route type="mix" sink="Earpiece"
                        sources="primary output,deep_buffer,fast,compressed_offload"/>
                 <route type="mix" sink="Speaker"
-                       sources="primary output,deep_buffer,fast,compressed_offload,mmap_no_irq_out"/>
+                       sources="primary output,deep_buffer,fast,compressed_offload,mmap_no_irq_out,immersive_out"/>
                 <route type="mix" sink="Wired Headset"
-                       sources="primary output,deep_buffer,fast,compressed_offload,mmap_no_irq_out"/>
+                       sources="primary output,deep_buffer,fast,compressed_offload,mmap_no_irq_out,immersive_out"/>
                 <route type="mix" sink="Wired Headphones"
-                       sources="primary output,deep_buffer,fast,compressed_offload,mmap_no_irq_out"/>
+                       sources="primary output,deep_buffer,fast,compressed_offload,mmap_no_irq_out,immersive_out"/>
                 <route type="mix" sink="USB Device Out"
-                       sources="primary output,deep_buffer,fast,direct_pcm,compressed_offload,mmap_no_irq_out,hifi_playback"/>
+                       sources="primary output,deep_buffer,fast,direct_pcm,compressed_offload,mmap_no_irq_out,hifi_playback,immersive_out"/>
                 <route type="mix" sink="USB Headset Out"
-                       sources="primary output,deep_buffer,fast,direct_pcm,compressed_offload,mmap_no_irq_out,hifi_playback"/>
+                       sources="primary output,deep_buffer,fast,direct_pcm,compressed_offload,mmap_no_irq_out,hifi_playback,immersive_out"/>
                 <route type="mix" sink="usb_surround_sound"
                        sources="USB Device In,USB Headset In"/>
                 <route type="mix" sink="hifi_input"
