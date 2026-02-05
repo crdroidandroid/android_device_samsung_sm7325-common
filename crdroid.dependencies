@@ -23,5 +23,10 @@
     "repository": "crdroidandroid/hardware_samsung-extra_interfaces",
     "target_path": "hardware/samsung-ext/interfaces",
     "branch": "16.0"
+  },
+  {
+    "repository": "android_hardware_samsung_slsi_nfc",
+    "target_path": "hardware/samsung_slsi/nfc",
+    "branch": "lineage-23.2" 
   }
 ]
