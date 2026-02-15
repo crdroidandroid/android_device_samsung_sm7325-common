@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "crdroidandroid/android_kernel_samsung_sm7325",
+    "target_path": "kernel/samsung/sm7325",
+    "branch": "16.0-a52sxq"
+  },
+  {
+    "repository": "crdroidandroid/android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "branch": "16.0"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_samsung_sm7325-common",
+    "target_path": "vendor/samsung/sm7325-common",
+    "branch": "16.0-a52sxq"
+  },
+  {
+    "repository": "crdroidandroid/android_hardware_dolby",
+    "target_path": "hardware/dolby",
+    "branch": "16.0"
+  },
+  {
+    "repository": "crdroidandroid/hardware_samsung-extra_interfaces",
+    "target_path": "hardware/samsung-ext/interfaces",
+    "branch": "16.0"
+  },
+  {
+    "repository": "LineageOS/android_hardware_samsung_slsi_nfc",
+    "target_path": "hardware/samsung_slsi/nfc",
+    "branch": "lineage-23.2"
+  }
+]
